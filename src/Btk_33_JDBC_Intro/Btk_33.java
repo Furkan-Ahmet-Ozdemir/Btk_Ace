@@ -14,7 +14,7 @@ public class Btk_33 {
             connection = helper.getConnection();
             String sql = "delete from city where id = ?";
             statement = connection.prepareStatement(sql);
-            statement.setInt(1,421);
+            statement.setInt(1,415);
             int result = statement.executeUpdate();
             System.out.println("Kayıt silindi.");
             System.out.println("result : "+result);
